@@ -37,6 +37,7 @@ jobs:
         run: 
           yarn add
           yarn build
+          npm run build
           yarn test
       - name: Deploy to Netlify
         uses: netlify/actions/cli@master
