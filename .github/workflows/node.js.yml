@@ -33,9 +33,9 @@ jobs:
         with: 
           node-version: ${{ matrix.node-version }}
       - run: npm install -g yarn
-      - name: yarn install; build and test
+      - name: install; build and test
         run: 
-          yarn add;
+          npm i;
           yarn build
           yarn test
       - name: Deploy to Netlify
