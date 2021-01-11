@@ -12,7 +12,7 @@ function App() {
         click
       </p>
       <h2>
-        num:{s}
+        num:{s} notext
       </h2>
     </div>
   );
