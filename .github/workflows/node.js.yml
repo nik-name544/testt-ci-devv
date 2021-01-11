@@ -36,8 +36,8 @@ jobs:
       - name: install; build and test
         run: 
           npm i;
-          yarn build
-          yarn test
+          npm run build
+          npm run test
       - name: Deploy to Netlify
         uses: netlify/actions/cli@master
         env:
