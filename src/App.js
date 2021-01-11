@@ -14,6 +14,7 @@ function App() {
       <h2>
         num:{s}
       </h2>
+      <p>dev text</p>
     </div>
   );
 }
